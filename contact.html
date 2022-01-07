@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="main.css" />
+   <link rel="shortcut icon" href="/images/logo.png " type="image/x-icon">
+   <title>Contact with the authorizer</title>
+ </head>
+ <body style="background-color: #F5EEDC;">
+   <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo"><img src="/images/logo.png" alt="" srcset="" width="35px"></div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+        <li><a href="/index.html">Resume</a></li>
+        <li><a href="/details.html">My Details</a></li>
+        <li><a href="/contact.html">Contact Me</a></li>
+       </div>
+     </ul>
+   </nav>
+
+   <div class="form" style="text-align: center;">
+    <form action="mailto:ssingh315428@gmail.com" method="post" enctype="text/plain">
+      <div class="form-item">
+        <label for="name">Enter your name &#160; &#160;  </label>
+        <br>
+        <input style="margin-top: 10px;
+        width: 300px;
+        height: 30px;" type="text" name="Client's name" id="" placeholder="Enter your name..">
+      </div>
+      <div class="form-item">
+        <label for="email">Enter your email &#160; &#160; </label>
+        <br>
+        <input style="margin-top: 10px;
+        width: 300px;
+        height: 30px;" type="email" name="Client's email" id="" placeholder="Enter your email..">
+      </div>
+      <div class="form-item">
+        <label for="Phone">Enter your number </label>
+        <br>
+        <input style="margin-top: 10px;
+        width: 300px;
+        height: 30px;" type="number" name="Client's number" id="" placeholder="Enter your mobile number..">
+      </div>
+      <div class="form-item">
+        <label for="message">Message  </label><br>
+        <textarea style="margin-top: 10px;" name="" id="" cols="38" rows="10" placeholder="Enter your message here.."></textarea>
+      </div>
+     
+      <button style="margin:10px 12px 10px 27px;
+      padding:10px;
+      border-radius:15px; background-color: #97BFB4;
+      cursor: pointer;" type="submit">Submit</button>
+      <button style="margin:10px 5px;
+      padding:10px;
+      border-radius:15px; background-color: #97BFB4;
+      cursor: pointer;
+      " type="reset">Reset</button>
+      </form>
+</div>
+ </body>
+</html>
